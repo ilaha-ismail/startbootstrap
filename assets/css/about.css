@@ -1,0 +1,114 @@
+#header {
+    height: 80px;
+    background-color: #ffffff;
+   position: fixed;
+   width: 100%;
+  }
+  #header .header_box {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+   
+  }
+  a{
+    color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 70px;
+  }
+  
+.linkitem{
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 5px;
+    margin-right: 70px;
+}
+.linkitem a {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    gap: 1px;
+    display: flex;
+    padding-right: 80px;
+    padding-right: 0;
+    padding-left: 30px;
+
+}
+.linkitem a:hover {
+
+    color: rgb(41, 104, 107)
+}
+#image{
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/about-bg.jpg);;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 45px;
+    width: 100%;
+    height: 95vh;
+}
+#image h1{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 300px;
+}
+#image h2{
+  padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+   
+
+}
+p{
+    
+    max-width: 800px; 
+    margin: 50px auto; 
+    text-align: left; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    line-height: 1.6; 
+    font-size: 1.3rem;
+   
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+    border-top: 1px solid #968e8e;
+   padding-top: 30px;
+   
+}
+.icon .iconcolor{
+
+width: 50px;
+    height: 50px;
+    background-color:#212529; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.iconcolor:hover {
+    background-color: #0085A1; 
+}
+.littletext{
+    color:#6C757D;
+   
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}   

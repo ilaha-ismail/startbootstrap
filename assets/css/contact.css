@@ -47,98 +47,50 @@ a {
 .linkitem a:hover {
 
     color: rgb(41, 104, 107)
+
 }
-#start {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
-    background-position: center;
+#image {
+    background-image: linear-gradient(0deg, rgba(47, 43, 43, 0.5), rgba(56, 50, 50, 0.5)), url(	https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/contact-bg.jpg);
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 45px;
+    padding-top: 60px;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
 }
-
-#start h1 {
+#image h1 {
     color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 5.5rem;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 180px;
+    font-weight: 800;
+    text-align: left;
+    width: fit-content;
+    
+    margin: 0 auto;
 }
 
-#start h2 {
-    padding-top: 20px;
+#image h2 {
+    padding-top: 10px;
+    padding-right: 90px;
     text-align: center;
-    font-family: sans-serif;
     font-weight: lighter;
     color: #ffffff;
-
-}
-
-.postpreview {
-    box-sizing: border-box;
-    margin-left: 30%;
-}
-
-.postpreview .posttitle {
-    font-size: 2.4rem;
-    margin-top: 1.875rem;
-    margin-bottom: 0.625rem;
-
-}
-
-.posttitle:hover {
-    color: #0085A1;
-}
-
-.postpreview .postsubtitle {
-
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: 0.5rem 0 4rem 5rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.1;
     display: block;
-    font-size: 1.4rem;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    font-weight: lighter;
-    unicode-bidi: isolate;
-
 }
-
-.postsubtitle:hover {
-    color: #0085A1;
+.text{
+   
+    font-size: 1.5rem;
+    margin: 80px 250px 10px 250px;
+    color: #212529;
+    padding-left: 230px;
 }
-
-.postpreview .postmeta {
-    font-size: 1.3rem;
-    font-style: italic;
-    margin-top: 0;
-    color: #6c757d;
-}
-
-hr {
-    border: none;
-    height: 1px;
-    background-color: #968e8e;
-    height: 1px;
-    width: 50%;
-    margin: 10px auto;
-}
-
-.box {
-    width: 200px;
-    height: 50px;
-    background-color: #0085A1;
-    margin-left: 62%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 .icon {
     display: flex;
     justify-content: center;
@@ -175,15 +127,3 @@ hr {
     text-align: center;
     margin-top: 20px;
 }
-
-/* responsiv 
-.menuicon {
-    display: none;
-    cursor: pointer;
-    font-size: 20px;
-    align-items: center;
-}
-.menuicon span {
-    margin-left: 5px;
-    font-size: 18px;
-}*/

@@ -1,0 +1,217 @@
+#header {
+    height: 80px;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+}
+
+#header .header_box {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 70px;
+}
+
+.linkitem {
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 5px;
+    margin-right: 70px;
+}
+
+.linkitem a {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    gap: 1px;
+    display: flex;
+    padding-right: 80px;
+    padding-right: 0;
+    padding-left: 30px;
+
+}
+
+.linkitem a:hover {
+
+    color: rgb(41, 104, 107)
+}
+
+#image {
+    background-image: linear-gradient(0deg, rgba(47, 43, 43, 0.5), rgba(56, 50, 50, 0.5)), url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/post-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 45px;
+    width: 100%;
+    height: 104vh;
+}
+
+#image h1 {
+    color: #ffffff;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 3.8rem;
+    text-align: center;
+    padding-top: 180px;
+    font-weight: 800;
+    text-align: left;
+    width: fit-content;
+    /* Adjust the width of the h1 element to fit its content */
+    margin: 0 auto;
+    /* Center the h1 element horizontally */
+
+
+
+}
+
+#image h2 {
+    padding-top: 10px;
+    padding-right: 90px;
+    text-align: center;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin: 0.75rem 0 2rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.1;
+    display: block;
+}
+
+span a {
+
+
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#image span {
+
+
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+
+    line-height: 1.1;
+    display: block;
+
+    padding-right: 250px;
+
+
+}
+
+.textarea {
+
+    margin: 40px 370px 0 370px;
+}
+
+
+p {
+    margin: 2rem;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 3.75rem;
+    margin-bottom: 0.5rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.2;
+
+    padding-left: 4%;
+}
+
+.blockquote {
+
+    margin: 0 30px 0 30px;
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #6c757d;
+
+}
+
+.imagetext {
+    font-size: 0.875rem;
+    font-style: italic;
+    display: block;
+    margin: 0;
+    padding: 0.8rem;
+    text-align: center;
+    color: hsl(208, 7%, 46%);
+}
+
+.secondimage {
+    width: 93%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;/
+}
+.end{
+    
+    display: flex;
+    align-items: center;
+    
+}
+span{
+    text-decoration: underline;
+    
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    border-top: 1px solid #968e8e;
+    padding-top: 30px;
+
+}
+
+.icon .iconcolor {
+
+    width: 50px;
+    height: 50px;
+    background-color: #212529;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.iconcolor:hover {
+    background-color: #0085A1;
+
+}
+
+.littletext {
+    color: #6C757D;
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
